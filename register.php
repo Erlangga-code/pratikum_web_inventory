@@ -37,11 +37,8 @@
         <div class="card card-success card-outline mb-4">
 
             <div class="card-header text-center">
-                <img src="assets/img/matrai-removebg-preview.png" width="80" height="80" alt="icon">
-                <h3 class="card-title float-none">
-
-                    CV PELINDUNG KERING
-                </h3>
+                <img src = "assets/img/LOGO.png" alt="Logo PT Bazma" class="brand-image img-circle elevation-3" style="width: 80px; height: auto; margin-bottom: 10px;">
+                <h3 class="card-title float-none">CV TEDUH MELAJU KERING</h3>
             </div>
 
             <form action="proses_register.php" method="post">

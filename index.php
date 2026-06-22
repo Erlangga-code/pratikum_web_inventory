@@ -31,7 +31,8 @@
     <div class="login-container">
         <div class="card card-primary card-outline mb-4">
             <div class="card-header text-center">
-                <h3 class="card-title float-none">PT BAZMA COMPNY</h3>
+                <img src = "assets/img/LOGO.png" alt="Logo PT Bazma" class="brand-image img-circle elevation-3" style="width: 80px; height: auto; margin-bottom: 10px;">
+                <h3 class="card-title float-none">CV TEDUH MELAJU KERING</h3>
             </div>
             <form action="login.php" method="post">
                 <div class="card-body">
