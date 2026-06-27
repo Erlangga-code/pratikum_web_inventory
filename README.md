@@ -49,12 +49,12 @@ CV Teduh Melaju Kering berkomitmen untuk memproduksi jas hujan inovatif yang tid
 
 ### TAMPILAN ADMIN
 <p align="center">
-<img width="388" height="351" alt="image" src="https://github.com/user-attachments/assets/fd2852d5-bca6-4fc6-bd69-cd9203c570da" />
+<img width="1852" height="940" alt="image" src="https://github.com/user-attachments/assets/51bdb452-493f-4698-aa2e-d514defb8655" />
 </p>
 
 ### TAMPILAN DASHBOARD USER
 <p align="center">
-<img width="624" height="309" alt="image" src="https://github.com/user-attachments/assets/29f5a26d-6e2f-4188-8171-7df724ff0253" />
+<img width="1887" height="927" alt="image" src="https://github.com/user-attachments/assets/8a92d38f-4571-449f-a87a-5ee1c50d8aae" />
 </p>
 
 ### TAMPILAN FITUR TAMBAH DATA
