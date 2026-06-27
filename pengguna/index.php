@@ -41,13 +41,17 @@ if (count($where_clauses) > 0) {
 }
 
 // 4. Query utama dengan penyesuaian kolom vendor.id_vendor dan barang.vendor_id
-$query_string = "SELECT barang.*, 
-                        barang.id AS id_barang, 
-                        barang.status_id AS nama_status, 
-                        barang.penyimpanan_id AS nama_penyimpanan, 
-                        vendor.nama_vendor 
-                 FROM barang 
-                 LEFT JOIN vendor ON barang.vendor_id = vendor.id_vendor" . $where_sql;
+ $query_string = "SELECT barang.*, 
+                            barang.id AS id_barang, 
+                            barang.status_id AS status_id, 
+                            barang.penyimpanan_id AS penyimpanan_id, 
+                            vendor.nama_vendor,
+                            status_barang.nama_status,
+                            penyimpanan.nama_penyimpanan
+                    FROM barang 
+                    LEFT JOIN vendor ON barang.vendor_id = vendor.id_vendor
+                    LEFT JOIN status_barang ON barang.status_id = status_barang.id
+                    LEFT JOIN penyimpanan ON barang.penyimpanan_id = penyimpanan.id" . $where_sql;
 
 $data = mysqli_query($koneksi, $query_string);
 
